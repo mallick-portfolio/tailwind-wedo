@@ -48,17 +48,28 @@
 
             <!-- Icon areaa -->
             <div class="absolute -top-8 left-1/2 sm:-top-12 -translate-x-1/2">
-              <img
-                class="w-14 p-1 ml-5 bg-white rounded-md shadow-lg"
-                src="./images/crm.png"
-                alt=""
-              />
-              <h3
-                class="text-[#004750] text-base sm:text-xl text-center font-semibold capitalize"
-              >
-                Lead to <br />
-                Lease CRM
-              </h3>
+              <div class="relative flex flex-col items-center group">
+                <img
+                  class="w-14 p-1 ml-5 bg-white rounded-md shadow-lg"
+                  src="./images/crm.png"
+                  alt=""
+                />
+                <h3
+                  class="text-[#004750] text-base sm:text-xl text-center font-semibold capitalize"
+                >
+                  Lead to <br />
+                  Lease CRM
+                </h3>
+                <div
+                  class="absolute bottom-0 flex-col items-center hidden mb-6 group-hover:flex"
+                >
+                  <span
+                    class="relative z-10 p-2 text-xs leading-none text-white whitespace-no-wrap bg-black shadow-lg"
+                    >A top aligned tooltip.</span
+                  >
+                  <div class="w-8 h-8 -mt-12 rotate-45 bg-red-500"></div>
+                </div>
+              </div>
             </div>
             <div class="absolute top-8 -left-8 sm:top-0 sm:left-24">
               <img
